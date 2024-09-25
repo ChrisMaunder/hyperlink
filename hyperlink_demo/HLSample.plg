@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HLSample - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\TEMP\RSP400.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Release/HLSample.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Program Files\Microsoft Visual Studio\MyProjects\My Programs\Hyperlink\hyperlink_demo\HLSampleDlg.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP400.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/HLSample.pdb" /machine:I386 /out:"Release/HLSample.exe"  ".\Release\HLSample.obj" ".\Release\HLSampleDlg.obj" ".\Release\HyperLink.obj" ".\Release\StdAfx.obj" ".\Release\HLSample.res" "
+<h3>Output Window</h3>
+Compiling...
+HLSampleDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+HLSample.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
